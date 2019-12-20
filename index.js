@@ -7,8 +7,8 @@ app.get('/login', (req, res) => res.send('login'))
 app.get('/register', (req, res) => res.send('student'))
 //res.File
 //res.json
-var student = {"name" : "Being Zero",
+var student = {"name" : "Hruthvik",
                "college" : "VNRVJIET",
-               "regno": "112323232"}
+               "regno": "17071A1296"}
 app.get('/data', (req, res)=> res.json(student));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
